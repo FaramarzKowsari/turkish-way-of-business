@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Turkish Way of Business - Grand Bazaar Secrets</title>
+    <meta name="description" content="Master the art of negotiation and build lasting relationships in Turkey. Discover 'The Turkish Way of Business' by Faramarz Kowsari.">
+    
+    <!-- Tailwind CSS (via CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons (via CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cinzel:wght@600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        h1, h2, h3 {
+            font-family: 'Cinzel', serif; /* Elegant font for a "Grand Bazaar" feel */
+        }
+        .playing-pulse {
+            animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse-ring {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+        /* Custom Gold Gradient Text */
+        .text-gold-gradient {
+            background: linear-gradient(to right, #b45309, #d97706, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="selection:bg-amber-100 selection:text-amber-900">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200 transition-all">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="briefcase" class="w-6 h-6 text-slate-800"></i>
+                    <span class="font-bold text-lg tracking-tight text-slate-900 font-sans">Turkish Way of Business</span>
+                </div>
+                <div>
+                    <a href="https://play.google.com/store/books/details/Faramarz_Kowsari_The_Turkish_Way_of_Business?id=nk-3EQAAQBAJ" target="_blank" class="text-sm font-medium text-slate-600 hover:text-amber-600 transition-colors hidden sm:inline-block mr-2 font-sans">
+                        Available on Google Play
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SEO Introduction & Hero Section -->
+    <header class="relative bg-white overflow-hidden border-b border-slate-200">
+        <!-- Background Pattern: Subtle Oriental Vibe -->
+        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#d97706_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-white"></div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-16 pb-20 flex flex-col lg:flex-row items-center gap-12 text-center lg:text-left">
+            
+            <!-- Text Content -->
+            <div class="flex-1">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-50 border border-amber-100 text-amber-800 font-medium text-xs mb-6 uppercase tracking-wider font-sans">
+                    <i data-lucide="gem" class="w-4 h-4"></i>
+                    <span>Grand Bazaar Secrets</span>
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
+                    Unlock the Secrets of <br />
+                    <span class="text-gold-gradient">Success in Turkey</span>
+                </h1>
+                
+                <p class="text-base sm:text-lg text-slate-600 mb-8 leading-relaxed font-sans">
+                    <strong>The Turkish Way of Business</strong> by <strong>Faramarz Kowsari</strong> is your essential guide to navigating the complex, relationship-driven world of Turkish commerce. From the high-stakes negotiations of Istanbul's boardrooms to the ancient trust rituals of the Grand Bazaar, discover the cultural codes that make or break a deal in this bridge between East and West.
+                </p>
+
+                <a href="https://play.google.com/store/books/details/Faramarz_Kowsari_The_Turkish_Way_of_Business?id=nk-3EQAAQBAJ" target="_blank" class="inline-flex items-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors shadow-lg hover:shadow-xl font-sans group">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Play_Books_icon_%282016%29.svg/512px-Google_Play_Books_icon_%282016%29.svg.png" alt="Google Play Books" class="w-5 h-5 bg-white rounded-sm p-0.5" />
+                    <span>Read on Google Play Books</span>
+                    <i data-lucide="arrow-right" class="w-4 h-4 opacity-0 -ml-2 group-hover:opacity-100 group-hover:ml-0 transition-all"></i>
+                </a>
+            </div>
+
+            <!-- Book Cover Image Area -->
+            <div class="flex-shrink-0 w-full max-w-sm lg:w-96 perspective-1000">
+                <div class="relative mx-auto w-3/4 lg:w-full transform transition-transform duration-500 hover:scale-105 hover:-rotate-1">
+                    <div class="absolute inset-0 bg-amber-500 blur-2xl opacity-20 rounded-3xl transform translate-y-6 translate-x-4"></div>
+                    
+                    <div class="relative z-10 bg-white rounded-r-2xl rounded-l-md shadow-2xl border-l-8 border-slate-800 overflow-hidden aspect-[2/3] flex items-center justify-center bg-slate-100">
+                        <!-- 
+                           PRIMARY: cover.jpg (Local file)
+                           FALLBACK: Google Books API Image (If cover.jpg fails or is missing)
+                        -->
+                        <img 
+                            src="cover.jpg" 
+                            alt="Official book cover of 'The Turkish Way of Business' by Faramarz Kowsari." 
+                            title="The Turkish Way of Business - Grand Bazaar Secrets"
+                            class="w-full h-full object-cover"
+                            onerror="this.onerror=null; this.src='https://books.google.com/books/content?id=nk-3EQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api';"
+                        />
+                        
+                        <!-- Shine effect -->
+                        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-white/10 to-transparent pointer-events-none"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Key Concepts Section with TTS -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Master The Culture</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto font-sans">
+                    Business in Turkey is 50% strategy and 50% emotion. Listen to the core principles that define success in the Turkish market.
+                </p>
+            </div>
+
+            <div class="space-y-8" id="chapters-container">
+                <!-- Chapters will be injected here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 py-12 border-t border-slate-800 font-sans">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
+            <h3 class="text-xl font-bold text-white mb-4 font-serif">Seal the deal. The Turkish way.</h3>
+            <p class="text-slate-400 mb-8 max-w-md">
+                Get the digital edition now and transform how you negotiate, connect, and succeed.
+            </p>
+            
+            <a href="https://play.google.com/store/books/details/Faramarz_Kowsari_The_Turkish_Way_of_Business?id=nk-3EQAAQBAJ" target="_blank" class="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors mb-12">
+                <span>View on Google Play Books</span>
+                <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+            </a>
+
+            <div class="text-slate-500 text-sm w-full pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="copyright" class="w-3 h-3"></i>
+                    <span>The Turkish Way of Business <span id="current-year"></span></span>
+                </div>
+                <span>By Faramarz Kowsari</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Logic and TTS -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Custom Content for "Turkish Way of Business"
+        const bookSections = [
+            {
+                id: "cay",
+                icon: "coffee", 
+                title: "The Tea Ceremony: More Than a Drink",
+                description: "In Turkey, business never starts immediately. The offering of 'Çay' (Tea) is the first test of patience and relationship building. Refusing it is a deal-breaker.",
+                example: "Golden Rule: Never rush to the agenda. The time spent sipping tea is when the real evaluation of your character happens. If they trust you over tea, they will trust you with the contract.",
+                fullText: "The Tea Ceremony: More Than a Drink. In Turkey, business never starts immediately. The offering of 'Çay', or tea, is the first test of patience and relationship building. Refusing it is a deal-breaker. Golden Rule: Never rush to the agenda. The time spent sipping tea is when the real evaluation of your character happens. If they trust you over tea, they will trust you with the contract."
+            },
+            {
+                id: "pazarlik",
+                icon: "scale",
+                title: "Pazarlık: The Art of Negotiation",
+                description: "Negotiation in the Grand Bazaar isn't conflict; it's a social dance. The listed price is merely an invitation to conversation, not a final verdict.",
+                example: "Strategy: Never accept the first offer, but never reject it rudely. Use phrases like 'Is there nothing you can do for a friend?' to shift the dynamic from transaction to relationship.",
+                fullText: "Pazarlık: The Art of Negotiation. Negotiation in the Grand Bazaar isn't conflict; it's a social dance. The listed price is merely an invitation to conversation, not a final verdict. Strategy: Never accept the first offer, but never reject it rudely. Use phrases like 'Is there nothing you can do for a friend?' to shift the dynamic from transaction to relationship."
+            },
+            {
+                id: "iliski",
+                icon: "users",
+                title: "İlişki: Relationship Capital",
+                description: "Western business is often transactional (B2B). Turkish business is deeply personal (H2H - Human to Human). Who you know often matters more than what you know.",
+                example: "Insight: A contract in Turkey is often viewed as a formality. The real bond is the verbal promise given between two people who have broken bread together.",
+                fullText: "İlişki: Relationship Capital. Western business is often transactional. Turkish business is deeply personal, Human to Human. Who you know often matters more than what you know. Insight: A contract in Turkey is often viewed as a formality. The real bond is the verbal promise given between two people who have broken bread together."
+            },
+            {
+                id: "sabir",
+                icon: "hourglass",
+                title: "Sabır: The Power of Patience",
+                description: "Things move differently in Istanbul. 'Sabır' (Patience) is not just waiting; it is an active state of enduring with dignity. Rushing a Turk is the fastest way to lose them.",
+                example: "Warning: Deadlines are often flexible suggestions. Showing frustration at delays can be interpreted as a lack of maturity or respect for the process.",
+                fullText: "Sabır: The Power of Patience. Things move differently in Istanbul. 'Sabır', or Patience, is not just waiting; it is an active state of enduring with dignity. Rushing a Turk is the fastest way to lose them. Warning: Deadlines are often flexible suggestions. Showing frustration at delays can be interpreted as a lack of maturity or respect for the process."
+            }
+        ];
+
+        let playingId = null;
+        const synth = window.speechSynthesis;
+        const container = document.getElementById('chapters-container');
+        
+        bookSections.forEach(section => {
+            const div = document.createElement('div');
+            div.className = 'bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200 hover:border-amber-200 hover:shadow-md transition-all duration-300';
+            div.id = `card-${section.id}`;
+            
+            div.innerHTML = `
+                <div class="flex flex-col sm:flex-row gap-6">
+                    <div class="flex-shrink-0 flex flex-col items-center gap-4">
+                        <div class="w-14 h-14 rounded-full bg-amber-50 flex items-center justify-center border border-amber-100">
+                            <i data-lucide="${section.icon}" class="w-6 h-6 text-amber-700"></i>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="playAudio('${section.id}')" id="play-btn-${section.id}" class="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 bg-slate-800 text-white hover:bg-slate-700 shadow-sm" title="Play audio">
+                                <i data-lucide="play-circle" class="w-5 h-5"></i>
+                            </button>
+                            <button onclick="stopAudio()" id="stop-btn-${section.id}" disabled class="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 bg-slate-100 text-slate-400 cursor-not-allowed" title="Stop audio">
+                                <i data-lucide="square" class="w-4 h-4 fill-current"></i>
+                            </button>
+                        </div>
+                        <span id="playing-text-${section.id}" class="text-xs font-medium text-amber-600 playing-pulse hidden">Playing...</span>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3 font-serif">${section.title}</h3>
+                        <p class="text-slate-600 text-base leading-relaxed mb-4 font-sans">${section.description}</p>
+                        <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
+                            <h4 class="flex items-center gap-2 font-semibold text-slate-800 mb-2 font-sans">
+                                <i data-lucide="lightbulb" class="w-4 h-4 text-amber-500"></i>
+                                Secrets of Success
+                            </h4>
+                            <p class="text-slate-600 text-sm leading-relaxed italic font-serif">"${section.example}"</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.appendChild(div);
+        });
+
+        lucide.createIcons();
+
+        function updateUIState() {
+            bookSections.forEach(section => {
+                const isPlaying = playingId === section.id;
+                const card = document.getElementById(`card-${section.id}`);
+                const playBtn = document.getElementById(`play-btn-${section.id}`);
+                const stopBtn = document.getElementById(`stop-btn-${section.id}`);
+                const playingText = document.getElementById(`playing-text-${section.id}`);
+
+                if (isPlaying) {
+                    card.classList.add('border-amber-400', 'shadow-md', 'ring-1', 'ring-amber-100');
+                    card.classList.remove('border-slate-200');
+                    playBtn.classList.replace('bg-slate-800', 'bg-amber-100');
+                    playBtn.classList.replace('text-white', 'text-amber-800');
+                    stopBtn.disabled = false;
+                    stopBtn.classList.replace('bg-slate-100', 'bg-red-100');
+                    stopBtn.classList.replace('text-slate-400', 'text-red-600');
+                    stopBtn.classList.add('hover:bg-red-200', 'shadow-sm');
+                    stopBtn.classList.remove('cursor-not-allowed');
+                    playingText.classList.remove('hidden');
+                } else {
+                    card.classList.remove('border-amber-400', 'shadow-md', 'ring-1', 'ring-amber-100');
+                    card.classList.add('border-slate-200');
+                    playBtn.classList.replace('bg-amber-100', 'bg-slate-800');
+                    playBtn.classList.replace('text-amber-800', 'text-white');
+                    stopBtn.disabled = true;
+                    stopBtn.classList.replace('bg-red-100', 'bg-slate-100');
+                    stopBtn.classList.replace('text-red-600', 'text-slate-400');
+                    stopBtn.classList.remove('hover:bg-red-200', 'shadow-sm');
+                    stopBtn.classList.add('cursor-not-allowed');
+                    playingText.classList.add('hidden');
+                }
+            });
+        }
+
+        function stopAudio() {
+            synth.cancel();
+            playingId = null;
+            updateUIState();
+        }
+
+        function playAudio(id) {
+            const section = bookSections.find(s => s.id === id);
+            if (!section) return;
+            synth.cancel();
+            const utterance = new SpeechSynthesisUtterance(section.fullText);
+            const voices = synth.getVoices();
+            let preferredVoice = voices.find(v => v.name.includes('Google') && (v.lang === 'en-US' || v.lang === 'en-GB'));
+            if (!preferredVoice) preferredVoice = voices.find(v => (v.lang.includes('en-GB') || v.lang.includes('en-US')) && (v.name.includes('Premium') || v.name.includes('Enhanced')));
+            if (!preferredVoice) preferredVoice = voices.find(v => v.lang.includes('en-GB') || v.lang.includes('en-US'));
+            if (preferredVoice) utterance.voice = preferredVoice;
+            utterance.lang = 'en-US';
+            utterance.rate = 0.95; 
+            utterance.pitch = 1.0;
+            utterance.onend = () => { playingId = null; updateUIState(); };
+            utterance.onerror = () => { playingId = null; updateUIState(); };
+            playingId = id;
+            updateUIState();
+            synth.speak(utterance);
+        }
+        window.speechSynthesis.onvoiceschanged = () => {};
+        window.addEventListener('beforeunload', () => { synth.cancel(); });
+    </script>
+</body>
+</html>
